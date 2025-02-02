@@ -1,0 +1,20 @@
+<div class="container-fluid pt-2">
+    <div  class="row pt-5 px-3 gx-4 gy-5 ">
+    
+        @for(meals of foodLists;track $index ){
+                  <div class=" col-md-3 pb-4  ">
+               <div class=" item bg-white d-flex flex-column align-items-center rounded-5 pb-3 ">
+                <div class="pic rounded-circle  bg-body"><img class="w-100 rounded-circle" [src]="meals.strMealThumb" alt=""></div>
+                <h3 class="text-black">{{meals.strIngredient1}}</h3>
+                <span class="d-flex gap-2 text-black"><i><i class="fa-solid fa-earth-americas"></i></i> <span>{{meals.strArea}}</span></span>
+                <a    class="text-center rounded-5 mt-2">View Recipe</a>
+               </div>
+        </div>
+        }
+      
+  
+
+   
+    </div>
+</div>
+

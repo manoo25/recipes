@@ -1,0 +1,49 @@
+*{
+    font-family: "Comic Neue", serif;
+    font-style: 
+    Comic Sans MS
+    Comic Sans MS Bold
+    Comic Sans MS Italic
+    Comic Sans MS Bold Italic;
+    font-size: 18px;
+    font-weight: 600;
+}
+h1{
+    font-family: "Pacifico", serif;
+    font-size: 36px;
+    font-weight: 700;
+    background-image: linear-gradient(to right,#F19525,#D95852);
+        -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ul{
+  list-style: none;
+  flex-wrap: wrap;
+padding-left: 0;
+padding-bottom: 6px;
+border-bottom: 0.5px solid #4b55633f ;
+}
+a{
+    text-decoration: none;
+    color: #4B5563;
+    border:solid 0.05rem #4B5563;
+    padding: 8px 15px;
+    border-radius: 20px;
+   
+}
+a:hover{
+    box-shadow: 1px 3px 10px #4b556356;
+    background-color: white;
+}
+.active{
+    background-color: black;
+    color: white;
+    border: none;
+
+}
+.active:hover{
+    background-color: black;
+    color: white;
+    border: none;
+
+}
